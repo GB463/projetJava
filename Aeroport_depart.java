@@ -59,8 +59,8 @@ public class Aeroport_depart{
     }
 
     // Méthode d'affichage utilisant les getters
-    public void display_Arrivee() {
-        System.out.println("=== Informations de l'aéroport d'arrivée ===");
+    public void display_depart() {
+        System.out.println("=== Informations de l'aéroport de départ");
         System.out.println("Code IATA: " + getCodeIATA());
         System.out.println("Nom: " + getNom());
         System.out.println("Ville: " + getVille());
