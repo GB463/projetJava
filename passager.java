@@ -1,4 +1,3 @@
-package model;
 
 import java.time.LocalDate;
 
@@ -11,6 +10,8 @@ public class passager {
     private LocalDate dateNaissance;
     private String nationalite;
     private String email;
+
+    public passager(){}
 
     public passager(int idPassager, String numeroPasseport, String nom, String prenom, 
                    String telephone, LocalDate dateNaissance, String nationalite, String email) {
